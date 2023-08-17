@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Detail">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_200"
+        android:minHeight="?actionBarSize"
+        android:theme="?actionBarTheme">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="DETAIL"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:background="@color/purple_200"
+            android:onClick="back_to_home"
+            android:text="home"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:background="@color/purple_200"
+            android:onClick="delete"
+            android:text="DELETE"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="322dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/taskdetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/titledetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/datedetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/timedetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/descriptiondetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp" />
+
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+Study Planner App
+
+Click + to Insert
+Click on Recycler View to go to details and delete option
+Swipe left or right on calendar to change month
+
+slight lag in loading database's new data is common in emulator
+
+
+References google developers india youtue
+
+Sundeepk for custom calendar
